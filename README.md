@@ -27,6 +27,9 @@ spring-boot/
 │   └── Apache Kafka
 ├── Reactive and Real-time Communication
 │   └── SSE/WebSocket with WebFlux
+├── Resilience and Stability
+│   ├── Resilience4j
+│   └── Rate Limiting
 ├── Cloud-Native and Distributed Systems
 │   ├── Spring Cloud Config with HashiCorp Vault
 │   ├── Microservices Architecture
@@ -35,6 +38,9 @@ spring-boot/
 │   ├── Spring Data Batch Processing
 │   └── AWS S3 Integration
 ├── Advanced Architecture Patterns
+│   ├── CQRS
+│   ├── Event Sourcing
+│   ├── Spring Modulith
 │   ├── Multi-Tenant Database Switching
 │   └── Flavouring (Feature Flags/Profiles)
 ├── Security and Identity
@@ -43,6 +49,8 @@ spring-boot/
 │   └── Test-Driven Development (TDD)
 ├── Observability and Monitoring
 │   └── Prometheus, Loki, and Tempo
+├── Performance and Native
+│   └── GraalVM Native Image
 └── DevOps and Deployment
     ├── Docker and Docker Compose
     └── GitHub Actions
@@ -85,6 +93,11 @@ This repository is organized in ascending order of complexity to provide a struc
 
 - [SSE/WebSocket with WebFlux](./14-sse-websocket-webflux/README.md)
 
+### Resilience and Stability
+
+- [Resilience4j](./resilience4j/README.md)
+- [Rate Limiting](./rate-limiting/README.md)
+
 ### Cloud-Native and Distributed Systems
 
 - [Spring Cloud Config with HashiCorp Vault](./15-spring-cloud-config-vault/README.md)
@@ -98,6 +111,9 @@ This repository is organized in ascending order of complexity to provide a struc
 
 ### Advanced Architecture Patterns
 
+- [CQRS](./cqrs/README.md)
+- [Event Sourcing](./event-sourcing/README.md)
+- [Spring Modulith](./spring-modulith/README.md)
 - [Multi-Tenant Database Switching](./20-multi-tenant/README.md)
 - [Flavouring (Feature Flags/Profiles)](./21-flavouring/README.md)
 
@@ -112,6 +128,10 @@ This repository is organized in ascending order of complexity to provide a struc
 ### Observability and Monitoring
 
 - [Prometheus, Loki, and Tempo](./24-observability/README.md)
+
+### Performance and Native
+
+- [GraalVM Native Image](./graalvm-native/README.md)
 
 ### DevOps and Deployment
 
